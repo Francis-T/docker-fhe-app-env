@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 3.10)
 project(SEALExamples VERSION 3.3.0 LANGUAGES CXX)
 
 # Executable will be in ../bin
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/../bin)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 
 add_executable(sealexamples examples.cpp)
 target_sources(sealexamples
